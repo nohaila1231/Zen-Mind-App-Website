@@ -69,8 +69,14 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110412483572077"
+         crossOrigin="anonymous"
+         ></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#7c3aed" />
+        <meta name="google-adsense-account" content="ca-pub-2110412483572077"></meta>
         <link rel="canonical" href="https://zen-mind.ma" />
 
         {/* PropellerAds */}
