@@ -108,7 +108,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">WhatsApp</p>
-                    <p className="text-gray-600">+212 6 XX XX XX XX</p>
+                    <p className="text-gray-600">+212 6 69 31 67 82</p>
                   </div>
                 </div>
 
