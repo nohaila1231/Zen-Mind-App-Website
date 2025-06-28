@@ -77,6 +77,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#7c3aed" />
         <meta name="google-adsense-account" content="ca-pub-2110412483572077"></meta>
+        <meta name="google-site-verification" content="IhpeR-PQeEChJJWXvNm6yTCEWeHUjWJOOtj6FmfYVms" />
         <link rel="canonical" href="https://zen-mind.ma" />
 
         {/* PropellerAds */}
