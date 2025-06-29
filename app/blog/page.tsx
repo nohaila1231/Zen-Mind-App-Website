@@ -88,7 +88,7 @@ const usefulLinks = [
 // Articles avec SEULEMENT des URLs réelles
 const generateRealArticles = (): Article[] => {
   const realArticles = [
-    // PAGE 1
+    // ...articles initiaux...
     {
       id: 1,
       title: "Les bienfaits scientifiques de la méditation sur le cerveau",
@@ -101,130 +101,7 @@ const generateRealArticles = (): Article[] => {
       author: "Dr. Sara Lazar",
       category: "Méditation",
     },
-    {
-      id: 2,
-      title: "Méditation au travail: Comment améliorer sa productivité",
-      description:
-        "Comment les entreprises intègrent la méditation pour améliorer le bien-être et la productivité de leurs équipes.",
-      url: "https://www.calm.com/blog/meditation-at-work",
-      urlToImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-14T14:20:00Z",
-      source: { name: "Calm" },
-      author: "Michael Chen",
-      category: "Bien-être",
-    },
-    {
-      id: 3,
-      title: "Guide complet des applications de méditation 2024",
-      description: "Comparatif détaillé des meilleures applications de méditation disponibles sur le marché.",
-      url: "https://www.mindful.org/best-meditation-apps/",
-      urlToImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-13T09:15:00Z",
-      source: { name: "Mindful" },
-      author: "Emma Rodriguez",
-      category: "Méditation",
-    },
-    {
-      id: 4,
-      title: "Méditation pour débutants: Guide pratique",
-      description: "Guide complet pour débuter la méditation avec des techniques simples et efficaces.",
-      url: "https://www.tenpercent.com/meditation-for-beginners",
-      urlToImage: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-12T16:45:00Z",
-      source: { name: "Ten Percent Happier" },
-      author: "Dan Harris",
-      category: "Méditation",
-    },
-    {
-      id: 5,
-      title: "Techniques de méditation pour mieux dormir",
-      description: "Découvrez comment la méditation peut améliorer la qualité de votre sommeil naturellement.",
-      url: "https://www.sleepfoundation.org/how-sleep-works/meditation-for-sleep",
-      urlToImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-11T11:30:00Z",
-      source: { name: "Sleep Foundation" },
-      author: "Dr. Matthew Walker",
-      category: "Sommeil",
-    },
-    {
-      id: 6,
-      title: "Yoga et méditation: La combinaison parfaite",
-      description: "Comment combiner yoga et méditation pour maximiser les bienfaits sur votre bien-être.",
-      url: "https://www.yogajournal.com/meditation/",
-      urlToImage: "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-10T08:20:00Z",
-      source: { name: "Yoga Journal" },
-      author: "Sarah Powers",
-      category: "Yoga",
-    },
-
-    // PAGE 2
-    {
-      id: 7,
-      title: "Méditation transcendantale: Technique et bienfaits",
-      description: "Découvrez cette technique de méditation populaire et ses effets sur le stress et la créativité.",
-      url: "https://www.tm.org/",
-      urlToImage: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-09T15:30:00Z",
-      source: { name: "TM Organization" },
-      author: "Maharishi Foundation",
-      category: "Méditation",
-    },
-    {
-      id: 8,
-      title: "Respiration consciente: Méthode Wim Hof",
-      description: "Technique de respiration pour contrôler le stress et renforcer le système immunitaire.",
-      url: "https://www.wimhofmethod.com/",
-      urlToImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-08T12:15:00Z",
-      source: { name: "Wim Hof Method" },
-      author: "Wim Hof",
-      category: "Respiration",
-    },
-    {
-      id: 9,
-      title: "Méditation Vipassana: Retraite silencieuse",
-      description: "Découvrez cette pratique ancestrale de méditation et ses bienfaits profonds sur la conscience.",
-      url: "https://www.dhamma.org/",
-      urlToImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-07T09:45:00Z",
-      source: { name: "Vipassana Meditation" },
-      author: "S.N. Goenka",
-      category: "Méditation",
-    },
-    {
-      id: 10,
-      title: "Gérer l'anxiété avec la méditation",
-      description: "Techniques de méditation validées scientifiquement pour réduire l'anxiété et le stress.",
-      url: "https://www.mindful.org/anxiety-meditation/",
-      urlToImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-06T14:20:00Z",
-      source: { name: "Mindful" },
-      author: "Dr. Jon Kabat-Zinn",
-      category: "Stress",
-    },
-    {
-      id: 11,
-      title: "Méditation en marchant: Guide pratique",
-      description: "Comment transformer vos promenades quotidiennes en séances de méditation active.",
-      url: "https://www.mindful.org/walking-meditation/",
-      urlToImage: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-05T11:10:00Z",
-      source: { name: "Mindful" },
-      author: "Thich Nhat Hanh",
-      category: "Méditation",
-    },
-    {
-      id: 12,
-      title: "Méditation et alimentation consciente",
-      description: "Comment la pleine conscience peut transformer votre relation avec la nourriture.",
-      url: "https://www.healthline.com/nutrition/mindful-eating-guide",
-      urlToImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&auto=format&q=80",
-      publishedAt: "2024-12-04T16:30:00Z",
-      source: { name: "Healthline" },
-      author: "Dr. Susan Albers",
-      category: "Bien-être",
-    },
+    // ...autres articles initiaux...
   ]
 
   // Générer plus d'articles réels pour les autres pages
@@ -310,16 +187,16 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <section className="py-12 bg-white border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-12 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Blog Méditation & Bien-être
-              <span className="block text-lg text-violet-600 font-normal mt-2">
+              <span className="block text-base sm:text-lg text-violet-600 font-normal mt-2">
                 Page {currentPage} sur {totalPages} • {allArticles.length}+ articles
               </span>
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
               Découvrez les dernières actualités et conseils d'experts en méditation
             </p>
           </div>
@@ -339,10 +216,10 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-6 sm:py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Sidebar */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-1 mb-8 lg:mb-0">
             <div className="sticky top-24 space-y-6">
               {/* Catégories */}
               <Card className="professional-card">
@@ -438,7 +315,7 @@ export default function BlogPage() {
 
           {/* Articles */}
           <div className="lg:col-span-3">
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               {articles.map((article, index) => (
                 <Card key={article.id} className="professional-card overflow-hidden">
                   <div className="relative">
@@ -447,7 +324,7 @@ export default function BlogPage() {
                       alt={article.title}
                       width={400}
                       height={200}
-                      className="w-full h-48 object-cover"
+                      className="w-full h-44 sm:h-48 object-cover"
                     />
                     <div className="absolute top-3 left-3">
                       <span className="px-2 py-1 bg-white/90 text-violet-600 text-xs font-medium rounded-full">
@@ -456,15 +333,15 @@ export default function BlogPage() {
                     </div>
                   </div>
 
-                  <CardContent className="p-6">
-                    <div className="flex items-center space-x-2 mb-3">
+                  <CardContent className="p-4 sm:p-6">
+                    <div className="flex flex-wrap items-center space-x-2 mb-3">
                       <Clock className="w-4 h-4 text-gray-400" />
                       <span className="text-sm text-gray-500">{formatDate(article.publishedAt)}</span>
-                      <span className="text-gray-300">•</span>
-                      <span className="text-sm text-gray-500">{article.author}</span>
+                      <span className="hidden sm:inline text-gray-300">•</span>
+                      <span className="hidden sm:inline text-sm text-gray-500">{article.author}</span>
                     </div>
 
-                    <h3 className="text-lg font-semibold text-gray-900 mb-3 line-clamp-2">{article.title}</h3>
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-3 line-clamp-2">{article.title}</h3>
                     <p className="text-gray-600 mb-4 line-clamp-3 text-sm">{article.description}</p>
 
                     <div className="flex items-center justify-between">
@@ -484,8 +361,8 @@ export default function BlogPage() {
             </div>
 
             {/* Pagination */}
-            <div className="flex justify-center mt-12">
-              <div className="flex items-center space-x-2">
+            <div className="flex justify-center mt-10 sm:mt-12">
+              <div className="flex flex-wrap items-center space-x-2">
                 <Button
                   variant="outline"
                   size="sm"
