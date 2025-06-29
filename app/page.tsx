@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className="bg-white">
       {/* Bannière publicitaire header */}
-      <TempAd slot="header-banner" format="horizontal" className="w-full max-w-6xl mx-auto" />
+      {/* <TempAd slot="header-banner" format="horizontal" className="w-full max-w-6xl mx-auto" /> */}
 
       <Hero />
 
